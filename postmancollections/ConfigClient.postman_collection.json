@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "d783b141-8d44-4ccd-bf65-b74bda1e1e9f",
+		"name": "ConfigClient",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11044164"
+	},
+	"item": [
+		{
+			"name": "RefreshConfigs",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/actuator/refresh",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"actuator",
+						"refresh"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
